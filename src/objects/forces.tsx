@@ -26,7 +26,7 @@ export const createWind = (wind: any = {}) => (  {
       }
 
       const length = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
-      const force = 1.1;
+      const force = 0.2;
 
       const finalVector = {
         x: vector.x * force / length,
